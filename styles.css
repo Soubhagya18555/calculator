@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 25px;
+    background-color: #04344a;
+}
+
+.calculator {
+    border: 5px solid #408dcd;
+    border-radius: 5px solid #ccc;
+    padding: 25px;
+    background-color: rgb(237, 237, 241);
+    box-shadow: 10px 10px 10px rgba(105, 100, 100, 0.2);
+}
+
+#display {
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 25px;
+    font-size: 40px;
+    background-color: #007bff;
+    color: rgb(105, 28, 28);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button {
+    /* ... other properties ... */
+    box-shadow: 10px 3px 5px rgba(57, 57, 194, 0.2);
+}
+
+#display {
+    /* ... other properties ... */
+    box-shadow: 10px 10px 10px rgba(32, 26, 205, 0.2);
+}
+
+.calculator {
+    /* ... other properties ... */
+    box-shadow: 20px 20px 40px rgba(43, 15, 202, 0.2);
+}
+
+button.backspace {
+    /* Add specific styles for the backspace button */
+}
+
+button.percentage {
+    /* Add specific styles for the percentage button */
+}
+
